@@ -1,4 +1,4 @@
-"""
+
 a = False
 print(type(a))
 if a:
@@ -34,7 +34,7 @@ if nome == "Jose":
     print("È igual a Jose")
 else:
     print("É diferente de Jose")
-"""
+
 
 # Condição dupla
 
