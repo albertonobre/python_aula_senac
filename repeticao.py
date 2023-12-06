@@ -99,3 +99,18 @@ while posicao < len(listaCarros):
     listaNova.append(listaCarros[posicao])
     posicao += 1
 print(listaNova)
+
+# forma diferente de fazer
+
+print(listaCarros)
+posicao = 0
+i = 0
+listaNova = []
+while i <len(listaCarros):
+    if listaCarros[i] == "Mustang":
+        posicao = i
+    if posicao != 0:
+        listaNova.append(listaCarros[posicao])
+        posicao += 1
+    i+=1
+print(listaNova)
